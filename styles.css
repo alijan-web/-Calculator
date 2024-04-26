@@ -30,13 +30,10 @@ input {
     text-align: right;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    outline: none;
 }
 
-input::placeholder {
-    color: black;
-}
-
-button {
+button { 
     border: none;
     width: 60px;
     height: 60px;
@@ -50,6 +47,8 @@ button {
 .eqyl {
     background-color: orange;
 }
+
 .operator {
-    color: rgb(49, 79, 251);
+    color: rgb(233, 234, 237);
+    background-color: rgba(43, 38, 38, 0.652);
 }

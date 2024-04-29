@@ -24,6 +24,8 @@ body {
     background: transparent;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     /* background-color: rgb(16, 85, 149) ; */
+    border: 1px black dotted;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.275), rgba(24, 7, 7, 0.34));
 }
 
 input {
@@ -41,6 +43,7 @@ input {
     font-optical-sizing: auto;
     /* background-color: rgba(255, 255, 255, 0.871); */
     border-radius: 16px;
+    border: 1px black dotted;
 }
 
 button {
@@ -75,4 +78,21 @@ button:hover {
 
 .operator:hover {
     background-color: rgba(43, 38, 38, 0.652);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    input {
+        font-size: 30px;
+        width: 240px;
+    }
+    button {
+        font-size: 16px;
+        width: 40px;
+        height: 40px;
+    }
+    .calculator {
+        margin-top: -200px;
+    }
+ 
 }
